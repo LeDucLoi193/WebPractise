@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+</head>
+<body>
+  <h4>Input information</h4>
+	<form action="./user.php" method="POST">
+    <label for="fname">First Name: </label>
+    <input type="text" id="fname" name="fname" />
+    <br />
+
+    <label for="lname">Last Name: </label>
+    <input type="text" id="lname" name="lname" />
+    <br />
+
+    <label for="email">Email: </label>
+		<input type="email" id="email" name="email" />
+    <br />
+
+    <label for="password">Password: </label>
+    <input type="password" id="password" name="password" />
+    <br />
+
+    <label>Gender: </label>
+    <br />
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br />
+
+    <label>Hobbies: </label>
+    <br />
+    <input type="checkbox" id="guitar" name="hobbies[]" value="guitar">
+    <label for="guitar">Play guitar</label>
+    <br />
+    <input type="checkbox" id="soccer" name="hobbies[]" value="soccer">
+    <label for="soccer">Play soccer</label>
+    <br />
+    <input type="checkbox" id="sing" name="hobbies[]" value="sing">
+    <label for="sing">Sing a song</label>
+    <br />
+    <input type="checkbox" id="sleep" name="hobbies[]" value="sleep">
+    <label for="sleep">Sleep</label>
+    <br />
+
+    <button type="submit">Send</button>
+	</form>
+</body>
+</html>
